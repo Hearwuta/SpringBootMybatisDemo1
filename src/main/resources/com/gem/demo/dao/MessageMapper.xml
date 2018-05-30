@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gem.demo.dao.MessageMapper">
+    <!--public List<Message> getMessageByCatory(int catoryId);-->
+    <select id="getMessageByCatory" resultType="Message" parameterType="int">
+        SELECT * FROM message_detail WHERE mcatory_id=#{_parameter}
+    </select>
+    <!--public String getAnswer(int messageId);-->
+    <select id="getAnswer" resultType="String" parameterType="int">
+                SELECT content FROM message_detail WHERE id=#{_parameter}
+    </select>
+
+</mapper>
