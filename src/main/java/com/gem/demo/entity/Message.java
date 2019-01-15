@@ -1,13 +1,13 @@
 package com.gem.demo.entity;
 
 public class Message {
-    private Integer idyuiy;
+    private Integer ids;
 
-    private String mname;
+    private String me;
 
     private String content;
 
-    private Integer mcatoryId;
+    private Integer mcatoryI;
 
     public Integer getId() {
         return id;
