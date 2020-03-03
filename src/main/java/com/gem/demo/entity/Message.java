@@ -3,11 +3,13 @@ package com.gem.demo.entity;
 public class Message {
     private Integer 第一次4444;
 
-    private String mname;
+    private String mname111;
 
     private String content;
 
     private Integer mcatoryId;
+    private Integer id;
+
 
     public Integer getId() {
         return id;
