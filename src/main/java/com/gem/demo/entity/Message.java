@@ -1,7 +1,7 @@
 package com.gem.demo.entity;
 
 public class Message {
-    private Integer 第一次;
+    private Integer idffff;
 
     private String mname;
 
